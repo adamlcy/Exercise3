@@ -1,0 +1,75 @@
+<! DOCTYPE HTML>
+
+<html>
+
+<head>
+	
+	<style>
+		header{
+			padding:20px;
+			font-size: 22px;
+			font-family: "Arial";
+			background-color:#88B47F;
+		}
+		footer{
+			font-family: "Arial";
+			text-align : center;
+			background-color:#BDB76B;
+			padding-bottom:20px;
+		}
+		
+		button{
+			display:block;
+			margin: 0 auto;
+		}
+		
+		#map{
+			float:left;
+		}
+		#sprite{
+			position: absolute;
+			left: 190px;
+			top:235px;
+		}
+		#container{
+			overflow:auto;
+			background-color:#FDCEC6;
+		}
+		#game_title{
+			font-family: "Arial";
+		}
+		#panel{
+			text-align:center;
+		}
+	</style>
+    <title>Exercise 3: HTML & CSS Layout</title>
+
+</head>
+
+<body>
+
+<header>
+<strong>	Grand Hawaiian Tour</strong>
+</header>
+ 
+ <div id="container">
+	<div >
+		<img id="map" src="map.jpg">
+		<img id="sprite" src="sprite.png">
+	</div>
+	<div id="panel">
+			  <p id="game_title"><strong>Column 'o buttons</strong></p>
+			  <p>This is an awesome game!</p>
+			  <button>Click to play</button>
+			  <button>Toss in the towel</button>
+	</div>
+	</div>
+
+
+<footer>
+<strong>	Copyright &copy; BC Game Demones</strong>
+</footer>
+
+</body>
+
+</html>
